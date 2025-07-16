@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ejercicio de CSS</title>
+  <link rel="stylesheet" href="texto1.css">
+</head>
+<body>
+
+  <div id="menu" style="background-color: blue; padding: 10px;">
+    <a href="#">Inicio</a> |
+    <a href="#">Noticias</a> |
+    <a href="#">Contacto</a>
+  </div>
+
+  <div id="principal" style="display: flex; gap: 20px; padding: 20px;">
+    
+    <div id="contenido" style="flex: 3;">
+      <div class="articulo">
+        <h2>Título del Artículo</h2>
+        <p>Este es un texto dentro del artículo. <a href="#">Enlace del artículo</a></p>
+      </div>
+
+      <div id="noticias">
+        <h3>Noticias Recientes</h3>
+        <p><span class="fecha">20 de mayo, 2025</span> - Contenido de una noticia.</p>
+        <p><span class="fecha">21 de mayo, 2025</span> - Otra noticia del día.</p>
+      </div>
+    </div>
+
+    <div id="lateral" style="flex: 1;">
+      <p>Este es el contenido lateral. Aquí puede ir algo adicional.</p>
+      <p><span class="fecha">Fecha lateral</span></p>
+    </div>
+  </div>
+
+  <div id="publicidad" style="padding: 20px;">
+    <p>Publicidad: Compra nuestros productos <a href="#">aquí</a>.</p>
+  </div>
+  <div>
+    <p><a href="index.html">atras</a></p>
+  </div>
+</body>
+</html>

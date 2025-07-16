@@ -1,0 +1,29 @@
+p.x a {
+    color: red;
+}
+
+article p:last-child{
+    color: blue;
+}
+
+section p:nth-child(2){
+    color: green;
+}
+
+section ol li:nth-child(2n){
+    color: pink;
+}
+
+section ol li:nth-last-child(2){
+    color: turquoise;
+    border: 10px solid black;
+}
+
+section.enlace a:nth-of-type(2){
+    color : pink;
+}
+
+main button:only-child{
+    border: 2rem;
+    color: rgb(02, 52, 51);
+}

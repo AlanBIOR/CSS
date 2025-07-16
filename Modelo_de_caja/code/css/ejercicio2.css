@@ -1,0 +1,32 @@
+.contenedor {
+  position: relative;
+  height: 280px; /* puedes ajustar según tu contenido */
+  border: 5px solid red;
+}
+
+
+.caja1, .caja2, .caja3 {
+  position: absolute;
+  width: 50%;
+  top: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+.caja1 {
+    left: 10px;
+    border: 5px solid green;
+}
+
+.caja2 {
+    left: 40px;
+    top: 100px;
+    border: 5px solid blue;
+}
+
+.caja3 {
+    left: 70px;
+    top: 190px;
+    border: 5px solid orange;
+}

@@ -1,0 +1,48 @@
+.container {
+  width: 500px;
+  height: 300px;
+  background-color: gainsboro;
+  position: relative;
+  padding: 10px;
+  font-size: 40px;
+}
+
+.rojo {
+    background-color: red;
+    color: black;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.azul {
+    background-color: blue;
+    color: white;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.verde {
+    background-color: green;
+    color: white;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.amarillo {
+    background-color: yellow;
+    color: black;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}

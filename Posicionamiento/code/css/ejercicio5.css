@@ -1,0 +1,50 @@
+.container {
+    background-color: gainsboro;
+    width: 500px;
+    height: 300px;
+    position: relative;
+    font-size: 40px;
+    font-family: Arial, sans-serif;
+}
+
+.azul, .verde {
+    width: 15%;
+    height: 80%;
+}
+
+.rojo, .amarillo {
+    width: 80%;
+    height: 20%;
+}
+
+.azul {
+    background-color: blue;
+    position: absolute;
+    top: 20px;
+    left: 20%;
+    z-index: 1;
+}
+
+.verde {
+    background-color: green;
+    position: absolute;
+    top: 20px;
+    right: 20%;
+    z-index: 1;
+}
+
+.rojo {
+    background-color: red;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    z-index: 0;
+}
+
+.amarillo {
+    background-color: yellow;
+    position: absolute;
+    bottom: 20%;
+    right: 10%;
+    z-index: 0;
+}

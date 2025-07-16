@@ -1,0 +1,30 @@
+body {
+    font-family: Calibri, Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, serif;
+    color: #1F497D;
+    background-color: #BFBFBF;
+    font-size: 24px;
+    letter-spacing: 0.5em;  /* Espaciado entre letras */
+    word-spacing: 1.5em;    /* Espaciado entre palabras */
+    text-align: center; /* Centra el texto */
+    text-transform: uppercase; /* Convierte el texto a mayúsculas */
+}
+
+h2 {
+    font-family: Cambria, Cochin, Georgia, Times, serif;
+    color: #632423;
+    font-size: 18px;
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+}
+
+li {
+    font-style: italic; /* cursiva */
+    font-weight: bold; /* negrita */
+}strong {
+    font-weight: normal;
+    font-variant: small-caps; /* versalitas */
+}

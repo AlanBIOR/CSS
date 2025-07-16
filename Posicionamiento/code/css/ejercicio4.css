@@ -1,0 +1,47 @@
+.container {
+    background-color: gainsboro;
+    width: 500px;
+    height: 300px;
+    position: relative;
+    padding: 10px;
+    font-size: 40px;
+}
+
+.ejercicio4 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.verde {
+    background-color: green;
+    color: white;
+    display: inline-block;
+    width: 20%;
+    height: 260px;
+
+}
+
+.amarillo {
+    background-color: yellow;
+    color: black;
+    display: inline-block;
+    width: 20%;
+    height: 260px;
+}
+
+.rojo {
+    background-color: red;
+    color: black;
+    display: inline-block;
+    width: 20%;
+    height: 260px;
+}
+
+.azul {
+    background-color: blue;
+    color: white;
+    display: inline-block;
+    width: 20%;
+    height: 260px;
+}

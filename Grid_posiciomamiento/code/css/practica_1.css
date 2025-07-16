@@ -1,0 +1,86 @@
+.practica1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Tres columnas de igual ancho */
+  grid-template-rows: auto auto auto; /* Las filas se ajustarán al contenido */
+  gap: 5px; /* Espacio entre los elementos */
+  width: 400px; /* Ancho total del contenedor */
+  height: 100px;
+}
+
+.practica1 li {
+  background-color: #6a0dad; /* Color morado para los elementos */
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+}
+
+.practica2 {
+    display: grid;
+    grid-template-columns: 50px 100px;
+    grid-template-rows: 50px 100px 50px;
+}
+
+.practica2 li {
+    background-color: rgb(0, 172, 115);
+    color: white;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+}
+
+.practica3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 100px);
+    width: 600px;
+}
+
+.practica3 li {
+    background-color: palevioletred;
+    color: white;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+}
+
+.practica4 {
+    font-size: 20px;
+    color: white;
+    display: grid;
+    grid-template-rows: repeat(3, 40px);
+    grid-template-areas: "header header header header"
+                         "main main . sidebar"
+                         "footer footer footer footer";
+} 
+
+.practica4 li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    grid-area: header;
+    background-color: orange;
+}
+
+.main {
+    grid-area: main;
+    background-color: aqua;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    background-color: yellowgreen;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: gray;
+}

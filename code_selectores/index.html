@@ -1,0 +1,95 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>Clase 03 CSS</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.png">
+
+  <link rel="stylesheet" href="css/estilos.css" media="screen">
+
+  <link rel="manifest" href="site.webmanifest">
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Ejemplo de Selectores</title>
+</head>
+<body>
+
+  <!-- 1. div hijo de otro div -->
+  <div>
+    <div>Div hijo de otro div</div>
+  </div>
+
+  <!-- 2. Hijos de p (solo elementos inline permitidos) -->
+  <p>
+    <span>Hijo válido de p</span>
+    <a href="#">Otro hijo de p</a>
+  </p>
+
+  <!-- 3. p hijo directo de article -->
+  <article>
+    <p>Párrafo hijo directo de article</p>
+  </article>
+
+  <!-- 4. p dentro de article (puede estar más anidado) -->
+  <article>
+    <section>
+      <p>Párrafo descendiente dentro de article</p>
+    </section>
+  </article>
+
+  <!-- 5. h1 y h3 -->
+  <h1>Título principal</h1>
+  <h3>Subtítulo</h3>
+
+  <!-- 6. ol dentro de body -->
+  <ol>
+    <li>Elemento ordenado 1</li>
+    <li>Elemento ordenado 2</li>
+  </ol>
+
+  <!-- 7. Cualquier elemento con clase "amarillo" -->
+  <div class="amarillo">Soy un div con clase amarillo</div>
+  <p class="amarillo">Soy un párrafo con clase amarillo</p>
+
+  <!-- 8. ul hijo de body -->
+  <ul>
+    <li>Lista desordenada directamente en el body</li>
+  </ul>
+
+  <!-- 9. a hijo de p -->
+  <p>
+    <a href="#">Enlace hijo directo de un párrafo</a>
+  </p>
+
+  <!-- 10. Elemento con id "platano" -->
+  <div id="platano">Este es el div con id "platano"</div>
+
+  <!-- 11. div hermano de un h2 -->
+  <h2>Soy un H2</h2>
+  <div>Div hermano del h2</div>
+
+  <!-- 12. p con clase país descendiente de ul -->
+  <ul>
+    <li>
+      <p class="paisa">Párrafo con clase país dentro de una lista</p>
+    </li>
+  </ul>
+
+  <!-- 13. h1, h2, h3 con clase headertitle dentro de header -->
+  <header>
+    <h1 class="headertitle">Título dentro de header</h1>
+    <h2 class="headertitle">Subtítulo dentro de header</h2>
+    <h3 class="headertitle">Otro título dentro de header</h3>
+  </header>
+
+</body>
+</html>

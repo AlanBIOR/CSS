@@ -1,0 +1,162 @@
+div > div {
+    background-color: lightblue;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid blue;
+  }
+
+p > * {
+    background-color: red;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid blue;
+}
+
+article > p {
+    background-color: green;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid blue;
+}
+
+article p {
+    background-color: #777;
+}
+
+h1, h3 {
+  border: 3px solid red;
+}
+
+body ol {
+  border: 5px solid blue;
+}
+
+.amarillo {
+  border: 5px solid green;
+}
+
+body > ul{
+  background-color: lightblue;
+}
+
+p > a {
+  background-color: orange;
+}
+
+#platano {
+  border: 8px solid;
+}
+
+h2 ~ div {
+  border: 4px solid red;
+  background-color: orange;
+}
+
+ul p.paisa{
+  border: 2px solid blue;
+}
+
+header > h1.headertitle, header >h2.headertitle, header > h3.headertitle{
+  background-color: orange;
+}
+
+/* Ejercicios Selectores II */
+
+div > div {
+  background-color: red;
+}
+
+p > * {
+   background-color: blue; 
+}
+
+article > p {
+    background-color: orange;
+}
+
+article p {
+    background-color: black;
+}
+
+h1, h3 {
+    background-color: orange;
+}
+
+body ol {
+  border: 3px solid red;
+}
+
+.amarillo {
+  border: 10px solid blue;
+}
+
+body > ul {
+  border: 4px solid black;
+}
+
+p > a {
+  background-color: orange;
+}
+
+#platano {
+  background-color: #0001;
+  border: 5px solid black;  
+}
+
+h2 ~ div {
+  border: #5555;
+  background-color: orange;
+}
+
+ul p.paisa {
+  background-color: #1215;
+  border: 1px solid red;
+}
+
+header > h1.headertitle, header > h2.headertitle, header > h3.headertitle {
+  border: 20px solid #578
+}
+
+/* Ejercicios Selectores III */
+p > a:nth-of-type(1) {
+  border: 6px solid #4548;
+}
+
+form input[type="checkbox"]:checked {
+  outline: 10px solid green; /* o cualquier estilo que desees */
+}
+
+article p:last-of-type {
+  color: blue;
+}
+
+section > *:nth-child(2) {
+  color: orange;
+  border: 1px solid blue;
+}
+
+ol > *:nth-child(even) {
+  color: red;
+  border: 1px solid blue;
+}
+
+ul > li:nth-last-child(3) {
+  background-color: lightcoral;
+}
+
+p a:nth-child(2){
+  border: 3px solid blue;
+  color: #1548
+}
+
+button:only-child {
+  background-color: red;
+}
+
+p > span:first-child {
+  background-color: yellow;
+}
+
+body > *:nth-last-child(2) {
+  border: 3px solid #8975
+}

@@ -1,0 +1,78 @@
+.banderas div {
+  width: 30%;
+  aspect-ratio: 1.4;
+  border: 1px solid black;
+  display: inline-block;
+  margin: 10px;
+}
+
+.colombia {
+    width: 200px;
+    height: 100px;
+    background: linear-gradient(
+        #FFD700 33.33%, 
+        #0033A0 33.33%,
+        #0033A0 66.66%, 
+        #CE1126 66.66%
+        );
+}
+
+.francia {
+    width: 200px;
+    height: 100px;
+    background: linear-gradient(
+        to right,
+        #EF4135 33.33%, 
+        #FFFFFF 33.33%,
+        #FFFFFF 66.66%, 
+        #0055A4 66.66%
+        );
+}
+
+.italia {
+    width: 200px;
+    height: 100px;
+    background: linear-gradient(
+        to right,
+        #009246 33.33%, 
+        #FFFFFF 33.33%,
+        #FFFFFF 66.66%, 
+        #CE2B37 66.66%
+        );
+}
+
+.alemania {
+    color : white;
+    width: 200px;
+    height: 100px;
+    background: linear-gradient(
+        #000000 33.33%, 
+        #DD0000 33.33%,
+        #DD0000 66.66%, 
+        #FFCE00 66.66%
+        );
+}
+
+.japon {
+    width: 200px;
+    height: 100px;
+    border: 2px solid black;
+    background: radial-gradient(
+        circle at center,
+        red 0%, 
+        red 30%,
+        white 0%,
+        white 100%
+    )
+}
+
+.polonia {
+    width: 200px;
+    height: 100px;
+    border: 2px solid black;
+    background: linear-gradient(
+        to top,
+        #DC143C 50%, 
+        #FFFFFF 50%
+    );
+}

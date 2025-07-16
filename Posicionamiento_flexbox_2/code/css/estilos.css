@@ -1,0 +1,257 @@
+.mainContainer {
+  width: 300px;
+  font-size: 16px;
+  border: 2px solid red;
+  min-height: 180px;
+}
+.mainContainer div:nth-child(1) {
+  background-color: #58B99D;
+  color: white;
+}
+
+.mainContainer div:nth-child(2) {
+  background-color: #5296D5;
+  color: white;
+}
+
+.mainContainer div:nth-child(3) {
+  background-color: #925CB1;
+  color: white;
+}
+
+.mainContainer div:nth-child(4) {
+  background-color: #38485C;
+  color: white;
+}
+
+.mainContainer div:nth-child(5) {
+  background-color: #EAC645;
+  color: white;
+}
+
+.mainContainer div:nth-child(6) {
+  background-color: #D8833B;
+  color: white;
+}
+
+.mainContainer div:nth-child(7) {
+  background-color: #D65745;
+  color: white;
+}
+
+.mainContainer div:nth-child(8) {
+  background-color: #BEC3C7;
+  color: white;
+}
+
+.mainContainer div:nth-child(9) {
+  background-color: #65C97A;
+  color: white;
+}
+
+.mainContainer div:nth-child(10) {
+  background-color: #4A9E86;
+  color: white;
+}
+
+/*ejercicio 1 */
+.ejercicio1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.mainContainer.ejercicio1 div {
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+/* Ejercicio 2 */
+.ejercicio2 {
+  display: flex;
+  flex-direction: column-reverse;
+  overflow-y: scroll;
+  height: 150px;
+  min-height: 0;
+  text-align: center;
+}
+
+/* Ejercicio 3 */
+.mainContainer.ejercicio3 {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 150px;
+}
+
+.ejercicio3 div {
+  text-align: center;
+  width: 33.33%;
+}
+
+/* Ejercicio 4 */
+
+.ejercicio4 {
+  display: flex;
+  min-height: 0;
+}
+
+.mainContainer.ejercicio4 div {
+  flex: 1;
+  text-align: center;
+}
+
+.mainContainer.ejercicio4 div:nth-child(5) {
+  order: -1;
+}
+
+.mainContainer.ejercicio4 div:nth-child(6) {
+  order: 2;
+}
+
+/* Ejercicio 5 */
+
+.mainContainer.ejercicio5 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  font-size: 0px;
+}
+
+.mainContainer.ejercicio5 div {
+  height: 5px;
+}
+
+/* Ejercicio 6 */
+
+.mainContainer.ejercicio6 {
+  display: flex;
+  justify-content: start;
+  align-items: baseline;
+  text-align: center;
+}
+
+.mainContainer.ejercicio6 div {
+  padding: 2px 1px;
+}
+
+/*
+.mainContainer.ejercicio6 div:nth-child(1) {
+  font-size: 0;
+  height: 10px;
+  width: 5px;
+}
+
+.mainContainer.ejercicio6 div:nth-child(2) {
+  font-size: 15px;
+  height: 20px;
+  width: 10px;
+}
+
+.mainContainer.ejercicio6 div:nth-child(3) {
+  font-size: 22px;
+  height: 25px;
+  width: 15px;
+}
+
+.mainContainer.ejercicio6 div:nth-child(4) {
+  font-size: 30px;
+  height: 35px;
+  width: 20px;
+}
+
+.mainContainer.ejercicio6 div:nth-child(5) {
+  font-size: 0;
+  height: 5px;
+  width: 5px;
+}
+
+.mainContainer.ejercicio6 div:nth-child(6) {
+  font-size: 15px;
+  height: 20px;
+  width: 10px;
+}
+
+.mainContainer.ejercicio6 div:nth-child(7) {
+  font-size: 15px;
+  height: 20px;
+  width: 10px;
+}
+
+.mainContainer.ejercicio6 div:nth-child(8) {
+  font-size: 15px;
+  height: 20px;
+  width: 10px;
+}
+
+.mainContainer.ejercicio6 div:nth-child(9) {
+  font-size: 15px;
+  height: 20px;
+  width: 10px;
+}
+
+.mainContainer.ejercicio6 div:nth-child(10) {
+  font-size: 10px;
+  height: 15px;
+  width: 20px;
+}
+*/
+
+.mainContainer.ejercicio6 div:nth-child(1) {
+  font-size: 8px;
+}
+
+.mainContainer.ejercicio6 div:nth-child(3) {
+  font-size: 20px;
+}
+
+.mainContainer.ejercicio6 div:nth-child(4) {
+  font-size: 24px;
+}
+
+
+.mainContainer.ejercicio6 div:nth-child(5) {
+  font-size: 4px;
+}
+
+.mainContainer.ejercicio6 div:nth-child(10) {
+  font-size: 14px;
+}
+
+/* Ejercicio 7 */
+
+.mainContainer.ejercicio7 {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: start;
+  justify-content: center;
+}
+
+.mainContainer.ejercicio7 div {
+  width: 33.33%;
+  text-align: center;
+}
+
+/* Ejercicio 8 */
+
+.mainContainer.ejercicio8 {
+  display: flex;
+  align-items: start;
+}
+
+.mainContainer.ejercicio8 div {
+  flex: 1;
+  text-align: center;
+}
+
+.mainContainer.ejercicio8 div:nth-child(2) {
+  align-self: stretch;
+}
+
+.mainContainer.ejercicio8 div:nth-child(6) {
+  align-self: center;
+}
+
+.mainContainer.ejercicio8 div:nth-child(9) {
+  align-self: end;
+  padding-bottom: 8px;
+}
